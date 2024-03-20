@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #eb6d56, #ff416c);
+}
+
+.dice-game {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 50%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 11px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-heading {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.input-boxes {
+    margin-top:  30px;
+    width: 60%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin:  10px 0;
+    position: relative;
+}
+
+.input-group input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+}
+
+.input-group input:focus {
+    border-color: #d74328;
+}
+
+.input-group i {
+    position: absolute;
+    color: #dc543c;
+    font-size: 17px;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.button input {
+    color: #ffffff;
+    background: #ff4b2b;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 4s ease;
+}
+
+.button input:hover {
+    background: linear-gradient(to right, #eb3349, #f45c43);
+}

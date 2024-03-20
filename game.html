@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link  rel="stylesheet"  href="styles/game.css" />
+</head>
+<body>
+
+    <div class ="container">
+     <!-- <label id="winnerName" style="display: none;"> </label>is the Winner -->
+        <div class="players-details">
+            <div class="player1">
+                <h1 id="player1Name"></h1>
+      <!-- <div class="input-boxes"> -->
+                <div class="input-group">
+                    <label id="label1" class="playerScore">0</label>
+                </div>
+                <div class="DiceImageContainer">
+                    <img src="" alt="Dice" id="p1DiceImage" style="display: none;">
+                    <b>Total Score : </b><label id="p1Total" class="totalScore"></label>
+                </div>
+                <div class="input-group button">
+                    <button id="dice1"class="rollButton">Roll Dice</button>
+                </div>
+                
+            </div>
+            <div class="player2">
+                <h1 id="player2Name"></h1>
+                <div class="input-group">
+                    <label id="label2" class="playerScore">0</label>
+                </div>
+                <div class="DiceImageContainer">
+                    <img src="" alt="Dice" id="p2DiceImage" style="display: none;">
+                    <b>Total Score : </b> <label id="p2Total" class="totalScore"></label>
+                </div>
+                <div class="input-group button">
+                    <button id="dice2" class="rollButton">Roll Dice</button>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+</body>
+<script src="scripts/game.js"></script>
+
+</html>
